@@ -1,134 +1,116 @@
 .navbackground {
-    background-color: #000000;
-    background-image: 
+    background-color: #8EC5FC;
+    background-image: none; /* Ajout d'une valeur pour background-image */
 }
-
 
 body {
-    background: #000000;  /* fallback for old browsers */
-}
-
-.container{
-        border-radius: 5px;
-        background-color: #f2f2f2;
-        padding: 10px;
+    background: #076585;
+    /* Autres propriétés de dégradé de fond commentées pour simplifier */
 }
 
 .ET {
-    margin:auto;
+    margin: auto;
 }
 
-
 .faq {
-        list-style: none;
-        padding: 0;
+    list-style: none;
+    padding: 0;
 }
 
 .faq li {
-        margin-bottom: 1em;
+    margin-bottom: 1em;
 }
-      
+
 .faq li h2 {
-        margin: 0;
-        padding: 0;
-        font-size: 1.2em;
-        cursor: pointer;
+    margin: 0;
+    padding: 0;
+    font-size: 1.2em;
+    cursor: pointer;
 }
-      
+
 .faq li p {
-        display: none;
-        margin: 0;
-        padding: 0 0 0.5em 0;
+    display: none;
+    margin: 0;
+    padding: 0 0 0.5em 0;
 }
-      
+
 .faq li.open p {
-        display: block;
-      }
-
-      /* CSS pour les vidéos*/
-.videos {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+    display: block;
 }
 
-    /* CSS pour le carousel*/
+.videos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 .car {
     max-width: 1000px;
-    max-height: 10000px;
+    /* Suppression de max-height qui semble être trop élevé */
     margin: auto;
-  }
+}
 
 .fa {
-        padding: 20px;
-        font-size: 30px;
-        width: 50px;
-        text-align: center;
-        text-decoration: none;
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
 }
-      
 
 .fa:hover {
-        opacity: 0.7;
+    opacity: 0.7;
 }
-      
 
-      
-      
 .fa-facebook {
-        background: #3B5998;
-        color: white;
-}
-      
- 
-.fa-twitter {
-        background: #55ACEE;
-        color: white;
+    background: #3B5998;
+    color: white;
 }
 
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
 
 label {
-        display: block;
-        margin-bottom: 5px;
-        font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
 }
-      
-input[type="text"], textarea {
-        padding: 8px;
-        border: 1px solid #ccc;
-        width: 100%;
-        box-sizing: border-box;
-        margin-bottom: 20px;
-        font-size: 16px;
-        font-family: Arial, sans-serif;
-}
-      
-      button[type="submit"] {
-        background-color: #4CAF50;
-        color: white;
-        padding: 10px 20px;
-        border: none;
-        cursor: pointer;
-        font-size: 16px;
-        font-weight: bold;
-      }
-      
-      /* style pour le bouton d'envoi au survol */
-      button[type="submit"]:hover {
-        background-color: #45a049;
-      }
-      
-      /* style pour les messages d'erreur */
-      .error {
-        color: red;
-        font-size: 14px;
-        margin-bottom: 10px;
-      }
 
-      .audio {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-      }
-      
+input[type="text"],
+textarea {
+    padding: 8px;
+    border: 1px solid #ccc;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+}
+
+button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.audio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
